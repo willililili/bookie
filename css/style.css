@@ -518,9 +518,10 @@ footer .footer-column ul li:first-child{
     }
 
     header{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
         flex-direction: column;
-        margin-top:20px;
-        height: auto;
     }
 
     header img{
